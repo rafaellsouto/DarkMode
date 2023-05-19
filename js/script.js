@@ -23,7 +23,6 @@ changeThemeBtn.addEventListener("change", function()
 {
     toggleDarkMode();
 
-
     localStorage.removeItem("dark");
 
     if( document.body.classList.contains("dark") )
